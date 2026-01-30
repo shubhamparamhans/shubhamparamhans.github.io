@@ -6,12 +6,37 @@
 
   <title>Fooling the Startup of the Year — Hacking into Ola Wallet</title>
 
+  <meta name="keywords" content="
+API security case study,
+payment gateway vulnerability,
+wallet security flaw,
+responsible disclosure example,
+fintech security engineering,
+mobile app API security,
+order id reuse vulnerability,
+transaction validation failure,
+backend security architecture,
+real world security bug
+">
+<meta name="description" content="
+A real-world API security case study on Ola Wallet.
+Explains a payment transaction vulnerability caused by weak backend validation,
+order ID reuse, and missing authentication — responsibly disclosed by the author.
+">
+
+
   <meta name="description"
         content="Fooling the Startup of the Year — Hacking into Ola Wallet. A security case study by Shubham Paramhans.">
 
   <!-- Canonical reference to original article -->
   <link rel="canonical"
         href="https://medium.com/@CodeTheDevil/busting-ola-wallet-1ceea6174b1f" />
+
+        <meta property="og:title" content="Fooling the Startup of the Year — Hacking into Ola Wallet">
+<meta property="og:description" content="A real-world API security case study exposing a wallet transaction vulnerability caused by weak backend validation.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://YOUR_USERNAME.github.io/blog/busting-ola-wallet.html">
+
 
   <style>
     body {
@@ -71,6 +96,24 @@
 </head>
 
 <body>
+  <!-- SEO semantic signals -->
+<section style="display:none;">
+  <h2>API Security Case Study</h2>
+  <p>
+    This article documents a real-world fintech security vulnerability involving
+    wallet recharge APIs, missing server-side validation, and insecure transaction
+    acknowledgement flows.
+  </p>
+</section>
+<section style="display:none;">
+  <h2>About the Author</h2>
+  <p>
+    Shubham Paramhans is an engineering leader with experience in backend systems,
+    API design, security architecture, and large-scale platforms.
+    He has built and audited production systems across fintech, web, and AI domains.
+  </p>
+</section>
+
 
   <h1>Fooling the Startup of the Year</h1>
   <div class="subtitle">Hacking into Ola Wallet — by Shubham Paramhans</div>
